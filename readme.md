@@ -1,3 +1,10 @@
+### Step 0: Optional - Fork Audio Repositories
+0. This step is optional but ensures that your instance continues to work even if the original audio repositories are deleted or modified
+1. Open the `worker.js` file in this repository
+2. Locate the repositories in the `SOURCE_PROVIDERS` section
+3. Fork the repositories
+4. Update your local (or forked) `worker.js` file with the URLs of your forked audio repositories (be sure to follow the same URL format)
+
 ### Step 1: Create Your Cloudflare Worker
 1. Sign in to your Cloudflare account dashboard
 2. Navigate to the Workers & Pages section
